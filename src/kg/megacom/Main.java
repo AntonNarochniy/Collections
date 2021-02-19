@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Long> numbers = getArrayList(); // заполнил ArrayList
         print(numbers); //печать
-        Collections.sort(numbers);
+        Collections.sort(numbers); //сортирую список
         print(numbers); //печать
         System.out.println(Collections.binarySearch(numbers, TimeUnit.HOURS.toSeconds(hour))); //нашел индекс количества секунд в 1 часу
         Collections.reverse(numbers); // развернул список в обратном порядке
